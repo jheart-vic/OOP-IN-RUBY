@@ -1,7 +1,5 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Project Name
-
+OOP-IN-RUBY
 > Description the project.
 
 
