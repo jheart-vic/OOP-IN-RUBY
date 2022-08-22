@@ -1,7 +1,6 @@
 # Project Name
 OOP-IN-RUBY
-> Description the project.
-
+> A project created just for learning Object-Oriented-Programming(OOP) in Ruby
 
 ## Built With
 
