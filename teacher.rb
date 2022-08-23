@@ -1,3 +1,5 @@
+require './person'
+
 class Teacher < Person
   def initialize(age, name, specialization)
     super(age, name)
