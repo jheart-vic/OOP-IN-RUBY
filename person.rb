@@ -1,8 +1,9 @@
-class Person
+class Person < Nameable
   attr_reader :id
   attr_accessor :age, :name
 
   def initialize(age, name = `unknown`, parent_permission: true)
+    super()
     @id = DateTime.now
     @name = name
     @age = age
@@ -20,3 +21,10 @@ class Person
   private :of_age
   public :can_use_services
 end
+
+person = Person.new(22, `maximilianus`)
+person.correct_name
+capitalized_person = CapitalizeDecorator.new(person)
+capitalized_person.correct_name
+capitalized_trimmedperson = TrimmerDecorator.new(capitalized_person)
+capitalized_trimmedperson.correct_name
