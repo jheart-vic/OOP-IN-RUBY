@@ -6,11 +6,6 @@ OOP-IN-RUBY
 
 - RUBY
 
-## Live Demo (Not available)
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
 
 **instructions on setting up your project locally.**
