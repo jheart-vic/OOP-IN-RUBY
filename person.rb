@@ -7,11 +7,11 @@ class Person < Nameable
 
   def initialize(age, name = `unknown`, parent_permission: true)
     super()
-    @id = Time.now.to_f
+    @id = Random.rand(1..1000)
     @name = name
     @age = age
     @parent_permission = parent_permission
-    @rental = []
+    @rentals = []
   end
 
   def can_use_services?
@@ -22,7 +22,7 @@ class Person < Nameable
     name
   end
 
-  def add_rental(date, book)
+  def add_rental(book, date)
     Rental.new(date, book, self)
   end
 

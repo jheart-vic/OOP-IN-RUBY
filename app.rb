@@ -1,8 +1,8 @@
+require './classroom'
 require './person'
 require './student'
 require './teacher'
 require './book'
-require './classroom'
 require './rentals'
 
 class App
@@ -108,8 +108,7 @@ class App
 
     print 'Date: '
     date = gets.chomp.to_s
-
-    rental = Rental.new(date, @persons[person_id], @books[book_id])
+    rental = Rental.new(date, @books[book_id], @persons[person_id])
     @rentals << rental
 
     puts 'Rental created successfully'
