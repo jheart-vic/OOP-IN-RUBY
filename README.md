@@ -6,7 +6,6 @@ OOP-IN-RUBY
 
 - RUBY
 
-## Getting Started
 
 **instructions on setting up your project locally.**
 
@@ -23,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-👤 **Author**
+👤 **Victor David**
 
 - GitHub: [@githubhandle](https://github.com/jheart-vic)
 - Twitter: [@twitterhandle](https://twitter.com/Victorjheart)
