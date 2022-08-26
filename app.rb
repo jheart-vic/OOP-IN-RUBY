@@ -52,7 +52,7 @@ class App
   def create_student
     puts 'Create a new student'
     print 'Enter student age: '
-    age = gets.chomp.to_i
+    age = gets.chomp
     print 'Enter name: '
     name = gets.chomp
     print 'Has parent permission? [Y/N]: '
@@ -72,7 +72,7 @@ class App
   def create_teacher
     puts 'Create a new teacher'
     print 'Enter teacher age: '
-    age = gets.chomp.to_i
+    age = gets.chomp
     print 'Enter teacher name: '
     name = gets.chomp
     print 'Enter teacher specialization: '
