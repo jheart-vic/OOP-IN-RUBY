@@ -28,6 +28,13 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/Victorjheart)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-chiemerie-302a97230/)
 
+👤 **Ali**
+
+- GitHub: [@aliatayee](https://github.com/aliatayee)
+- Twitter: [@aqaatayee](https://twitter.com/aqaatayee)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aliatayee/)
+
+
 
 ## 🤝 Contributing
 
