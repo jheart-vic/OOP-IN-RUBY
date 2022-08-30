@@ -1,6 +1,6 @@
 # Project Name
 OOP-IN-RUBY
-> A project created just for learning Object-Oriented-Programming(OOP) in Ruby
+> This project is a console-based school library app that allows created students and teachers to rent created books. It also gives a list of students, teachers, books and rentals, created  for learning Object-Oriented-Programming(OOP) in Ruby
 
 ## Built With
 
