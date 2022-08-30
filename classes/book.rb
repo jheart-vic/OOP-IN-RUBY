@@ -1,10 +1,11 @@
-require './rentals'
+require './classes/rentals'
 
 class Book
-  attr_accessor :title, :author
+  attr_accessor :title, :author, :id
   attr_reader :rentals
 
-  def initialize(title, author)
+  def initialize(id, title, author)
+    @id = id || Random.rand(1...1000)
     @title = title
     @author = author
     @rentals = []

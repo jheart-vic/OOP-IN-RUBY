@@ -1,5 +1,5 @@
-require './book'
-require './person'
+require './classes/book'
+require './classes/person'
 
 class Rental
   attr_reader :book, :person
