@@ -8,7 +8,7 @@ module RentalStore
     if File.exist?(rent_file) && File.read(rent_file) != ''
       data = rent_file.read
       JSON.parse(data).each do |rental|
-        rental_store << Rental.new(rental['date'], person(rental['person_id']), book(rental['book_id']))
+        rental_store << Rental.new(rental['date'], book(rental['book_id']), person(rental['person_id']))
       end
     else
       File.write(rent_file, '[]')

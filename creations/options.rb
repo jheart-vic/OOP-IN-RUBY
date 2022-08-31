@@ -80,7 +80,7 @@ class Options
     if person_details
       puts 'Rentals'
       person_details.rentals.each_with_index do |rental, index|
-        puts "#{index + 1}) #{rental.date}, Book: #{rental.person.title} by #{rental.person.author}"
+        puts "#{index + 1}) #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}"
       end
     else
       print('There is no rental to display', 'Please create rental record')

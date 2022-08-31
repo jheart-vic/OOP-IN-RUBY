@@ -1,5 +1,6 @@
 require 'json'
-require './classes/book'
+require './classes/teacher'
+require './classes/student'
 
 module PeopleStore
   def load_people
@@ -9,8 +10,8 @@ module PeopleStore
       data = people_file.read
       JSON.parse(data).each do |person|
         people_store << if person['className'] == 'Student'
-                          Student.new(person['id'], person['age'], person['name'], person['parent_permission'],
-                                      person['classroom'])
+                          Student.new(person['id'], person['age'], person['classroom'], person['name'],
+                                      person['parent_permission'])
                         else
                           Teacher.new(person['id'], person['name'], person['age'], person['specialization'])
                         end
