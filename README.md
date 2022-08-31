@@ -1,6 +1,6 @@
 # Project Name
 OOP-IN-RUBY
-> A project created just for learning Object-Oriented-Programming(OOP) in Ruby
+> This project is a console-based school library app that allows created students and teachers to rent created books. It also gives a list of students, teachers, books and rentals, created  for learning Object-Oriented-Programming(OOP) in Ruby
 
 ## Built With
 
@@ -27,6 +27,13 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/jheart-vic)
 - Twitter: [@twitterhandle](https://twitter.com/Victorjheart)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-chiemerie-302a97230/)
+
+👤 **Ali**
+
+- GitHub: [@aliatayee](https://github.com/aliatayee)
+- Twitter: [@aqaatayee](https://twitter.com/aqaatayee)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aliatayee/)
+
 
 
 ## 🤝 Contributing
