@@ -23,6 +23,6 @@ class CreateRental
     print 'Date: '
     date = gets.chomp
     @rentals << selected_person.add_rental(date, selected_book)
-    print('Rental created', "Date: #{date}, Rental to: #{selected_person.name}, Book: #{selected_book.title}")
+    print('Rental created ', "Date: #{date}, Rented to: #{selected_person.name}, Book: #{selected_book.title}")
   end
 end

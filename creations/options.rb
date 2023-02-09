@@ -54,7 +54,7 @@ class Options
     puts 'Books'.upcase
     if @books.length.positive?
       @books.each_with_index do |book, index|
-        puts "#{index + 1}) Tittle: #{book.title}, Author: #{book.author}"
+        puts "#{index + 1}) Title: #{book.title}, Author: #{book.author}"
       end
 
     else
